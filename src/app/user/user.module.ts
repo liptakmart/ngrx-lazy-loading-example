@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { UserComponent } from './user.component';
+import { MaterialModule } from '../shared/material.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule,
   ],
   declarations: [UserComponent]
 })

@@ -69,4 +69,4 @@ const materialModules = [
     ],
     declarations: []
 })
-export class SharedModule { }
+export class MaterialModule { }
